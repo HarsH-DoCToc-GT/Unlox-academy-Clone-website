@@ -1,0 +1,63 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(10, 10, 10, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #222;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #3b82f6; /* Unlox Blue */
+  letter-spacing: -1px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #a1a1aa;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #ffffff;
+}
+
+.navbar-auth {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-login {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-signup {
+  background-color: #3b82f6;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-signup:hover {
+  background-color: #2563eb;
+}
